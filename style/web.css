@@ -10,6 +10,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /* commune style  start*/
 .text-center{
@@ -115,4 +116,185 @@ section .doscount-box{
     border: none;
     border-radius: 10px;
     margin-top: 48px;
+}
+
+/* offer section */
+.offer{
+    display: flex;
+    justify-content: space-around;
+}
+.col1-sub-heding{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 16px;
+    color: #ff0000;
+    margin-top: 104px;
+}
+.col1-heading{
+    font-size: 48px;
+    margin-bottom: 22px;
+}
+.col1-discription{
+    font-size: 18px;
+    color: #070211;
+}
+.col2 img{
+    padding: 35px;
+    border: 15px solid #ff0000;
+    border-radius: 50%;
+    margin-right: 118px;
+    margin-left: 70px;
+}
+
+.col3 h1{
+    font-size: 48px;
+    color: #ff0000;
+    margin-bottom: 16px;
+    margin-top: 112px;
+}
+.col3 p{
+    font-size: 18px;
+    margin-bottom: 43px;
+    color: #070211;
+}
+
+/* holidays sale section */
+.holiday-sale h4{
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+.holiday-sale h1{
+    font-size: 75px;
+}
+.holiday-sale p{
+    color: #070211;
+    font-size: 18px;
+    margin-bottom:64px ;
+    margin-top: 28px;
+}
+.holiday-sale span{
+    color: #ff0000;
+}
+.holiday-sale{
+    text-align: center;
+    margin: 0 200px;
+    color: #070211;
+}
+.holiday-discount{
+    display: flex;
+    position: relative;
+    height: 450px;
+}
+.discount{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-35deg);
+    color: white;
+    position: absolute;
+    top: 130px;
+    right: 170px;
+}
+.discount h2{
+    font-size: 60px;
+}
+.discount p{
+    font-size: 20px;
+}
+.holiday-discount img{
+    position: absolute;
+    z-index: 10;
+}
+.bg{
+    width: 1320px;
+    height: 229px;
+    background-color: #ff0000;
+    border-radius: 8px;
+    
+}
+
+/* potfolio section */
+.potfolio .potfolio-sub-heding{
+    font-size: 24px;
+    color: #ff0000;
+    margin-bottom: 16px;
+}
+.potfolio .potfolio-heading{
+    font-size: 48px;
+}
+.potfolio .potfolio-discription{
+    font-size: 18px;
+    color: #070211;
+    margin-top: 22px;
+    margin-bottom: 48px;
+    margin-right: 564px;
+}
+.all-prodact{
+    display: flex;
+    flex-wrap: wrap;
+}
+.all-prodact img{
+    padding: 5px;
+}
+
+/* subceribe section */
+.subcribe-section{
+    text-align: center;
+    padding: 80px 222px;
+    background-color: #f5d5d5;
+}
+.subcribe-section h1{
+    font-size: 48px;
+    margin-top: 40px;
+}
+.subcribe-section p{
+    font-size: 20px;
+    margin: 22px 112px 50px;
+    color: #070211;
+}
+
+input[type="search"]{
+    font-size: 22px;
+    padding: 25px 250px 25px 30px;
+    border: none;
+    border-top-left-radius: 50px;
+    
+}
+.sb{
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 26px 40px 29px 40px;
+    border-bottom-right-radius: 50px;
+    background-color: #ff0000;
+    position: absolute;
+
+}
+.s-btn{
+    position: relative;
+    margin-right: 160px;
+}
+.footer-main{
+    background-color: #070211;
+    color: white;
+    padding: 120px 140px;
+}
+.footer-sub{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-sub2{
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    margin: 50px 0;
+}
+.icon{
+    text-align: center;
 }
