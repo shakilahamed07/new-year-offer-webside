@@ -1,0 +1,118 @@
+/* font style */
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* commune style  start*/
+.text-center{
+    text-align: center;
+}
+section{
+    margin-top: 120px;
+}
+.main{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* commune style  end*/
+
+/* header style */
+.header{
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.beanar{
+    background: linear-gradient(180deg, rgb(16, 16, 16) -10.5%,rgba(16, 16, 16, 0) 100%),url('../images/Banner\ Image.png');
+    padding: 177px 344px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+.sub-heading{
+    font-size: 32px;
+    margin-bottom: 16px;
+    color: white;
+}
+.heading{
+    color: white;
+    font-size: 72px;
+}
+
+/* discount section style */
+
+section .doscount-box{
+    text-align: center;
+}
+.discount-heading{
+    font-size: 88px;
+    color: #ff0000;
+    margin-bottom: 48px;
+}
+.discount-sub-heading{
+    font-size: 24px;
+    font-weight: normal;
+    color: #ff0000;
+    margin-bottom: 16px;
+}
+.discount-heading-2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+/* wellcome section style */
+.wellcome-conteinar{
+    display: flex;
+    background: linear-gradient(-250deg, rgb(16, 16, 16) -10.5%,rgba(16, 16, 16, 0) 100%),url('../images/Vectorrr.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 68px 130px;
+    border-radius: 16px;
+}
+.wellcome-heading{
+    color: white;
+    font-size: 64px;
+    margin-top: 60px;
+    margin-bottom: 24px;
+}
+.wellcome-description{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 48px;
+}
+.wellcome-box a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 32px;
+}
+
+/* location section */
+.location-box{
+    background:linear-gradient(180deg, rgb(252, 199, 199) -10.5%,rgba(234, 190, 190, 0) 100%);
+    padding: 100px 386px 110px;
+    text-align: center;
+    border-radius: 16px;
+}
+.location-box span{
+    color: #ff0000;
+}
+.btn{
+    padding: 16px 32px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 48px;
+}
